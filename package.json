@@ -1,7 +1,7 @@
 {
-  "name": "donor-three-sixty",
+  "name": "nextjs-multi-language-scss",
   "version": "1.0.0",
-  "description": "main site and user dashboard",
+  "description": "nextjs multi-language support with scss",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development HTTPS=true PORT=3000 node server/index.js",
@@ -27,5 +27,11 @@
     "prettier": "2.2.1",
     "sass": "^1.32.7",
     "selfsigned": "^1.10.8"
-  }
+  },
+  "author": "Mohammed Tufail",
+  "license": "MIT",
+  "homepage": "https://github.com/tufail/nextjs-multi-language-scss#readme",
+  "bugs": {
+    "url": "https://github.com/tufail/nextjs-multi-language-scss/issues"
+  },
 }
