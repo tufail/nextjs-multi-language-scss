@@ -1,2 +1,2 @@
 # nextjs-multi-language-scss
-Nextjs with multi-language &amp; scss support
+Nextjs with multi-language &amp; scss support 

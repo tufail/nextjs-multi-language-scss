@@ -1,0 +1,31 @@
+{
+  "name": "donor-three-sixty",
+  "version": "1.0.0",
+  "description": "main site and user dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development HTTPS=true PORT=3000 node server/index.js",
+    "build": "next build",
+    "start": "cross-env NODE_ENV=production PORT=5600 node server/index.js"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "express": "^4.17.1",
+    "next": "^10",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-transition-group": "^4.4.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "http-proxy-middleware": "^1.0.4",
+    "https": "^1.0.0",
+    "prettier": "2.2.1",
+    "sass": "^1.32.7",
+    "selfsigned": "^1.10.8"
+  }
+}
