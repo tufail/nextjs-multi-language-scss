@@ -1,4 +1,4 @@
-# nextjs-multi-language-scss
+# nextjs multi language boilerplate with scss support
 Nextjs with multi-language &amp; scss support 
 
 #### Run Script
