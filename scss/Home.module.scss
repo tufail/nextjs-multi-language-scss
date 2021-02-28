@@ -1,5 +1,5 @@
-$color-primary: blueviolet;
+@import 'bootstrap/config';
 
 .heading-1 {
-    color: $color-primary;
+  color: $color-primary;
 }

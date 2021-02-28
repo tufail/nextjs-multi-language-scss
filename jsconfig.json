@@ -2,9 +2,12 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/controllers/*": ["controllers/*"],
+      "@/models/*": ["models/*"],
+      "@/middlewares/*": ["middlewares/*"],
       "@/components/*": ["components/*"],
       "@/i18n/*": ["i18n/*"],
-      "@/lib/*": ["lib/*"],
+      "@/helpers/*": ["helpers/*"],
       "@/styles/*": ["scss/*"]
     }
   }

@@ -9,8 +9,12 @@
     "start": "cross-env NODE_ENV=production PORT=5600 node server/index.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "date-fns": "^2.16.1",
     "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "mongoose": "^5.11.18",
     "next": "^10",
     "react": "^17",
     "react-dom": "^17",
@@ -24,14 +28,14 @@
     "eslint-plugin-prettier": "^3.3.0",
     "http-proxy-middleware": "^1.0.4",
     "https": "^1.0.0",
+    "morgan": "^1.10.0",
     "prettier": "2.2.1",
-    "sass": "^1.32.7",
-    "selfsigned": "^1.10.8"
+    "sass": "^1.32.7"
   },
   "author": "Mohammed Tufail",
   "license": "MIT",
   "homepage": "https://github.com/tufail/nextjs-multi-language-scss#readme",
   "bugs": {
     "url": "https://github.com/tufail/nextjs-multi-language-scss/issues"
-  },
+  }
 }
